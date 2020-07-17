@@ -1,0 +1,73 @@
+
+body{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+.contact-info .item {
+    margin-bottom: 50px;
+  }
+  .contact-info .icon {
+    background: #2196F3;
+    border: 1px solid #2A2A2E;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #d0bb79;
+    float: left;
+    
+  }
+
+  .contact-info .icon:hover {
+    background: #2196F3;
+    border: 1px solid #2A2A2E;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #d0bb79;
+    float: left;
+    padding: 2px;
+  }
+
+  .contact-info .cont {
+    margin-left: 80px;
+  }
+  
+  .contact-info .cont h6 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  .contact-info .cont p {
+    display: inline-block;
+    font-size: 16px;
+    border-bottom: 1px solid #2D2D32;
+    padding-bottom: 4px;
+  }
+  
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-bottom: 1px solid #2A2A2E;
+    background: #12141C;
+    font-size: 13px;
+  }
+  .contact input:focus, .contact textarea:focus {
+    border-color: #555;
+  }
+  .contact textarea {
+    height: 140px;
+  }
+
+
+  .cursor{
+      cursor: pointer;
+  }
